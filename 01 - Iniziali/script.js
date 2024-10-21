@@ -22,7 +22,7 @@ function oneByOne(array, purpose) {
 const firstLetter = (word) => word.charAt(0)
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(oneByOne(names, firstLetter))
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
