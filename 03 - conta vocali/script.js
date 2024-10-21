@@ -17,6 +17,8 @@ function numOfVowels(word) {
             vowels.push(element);
         }
     }
+    //mi faccio ritornare il output richiesto
+    return console.log(`${word} : ${vowels.length} (${vowels})`);
 }
 
 // Invoca la funzione qui e stampa il risultato in console
