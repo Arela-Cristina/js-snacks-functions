@@ -14,6 +14,11 @@ function oneByOne(array, purpose) {
         //ogni elemento del mio array svolge un compito-purpose
     }
 
+}
+
+//funzione arrow function implicita que ci prende solo la prima lettera di una stringa
+const firstLetter = (word) => word.charAt(0)
+
 // Invoca la funzione qui e stampa il risultato in console
 
 
