@@ -4,7 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+//primo parametro = array
+//secondo parametro = purpose
+function oneByOne (array, purpose) {
+    //ciclo ogni elemento del mio array
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
