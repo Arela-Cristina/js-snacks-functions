@@ -15,8 +15,15 @@ function oneByOne(array, letter) {
     for (let i = 0; i < array.length; i++) {
         let element = array[i];
         console.log(element);
+        //proposito, solo parole che iniziano con la stessa lettera
+        let result = element.charAt(0);
+        //..saranno pushate nel newArray
+        if (result.includes(letter)) {
+            newArray.push(element);
+        }
     }
 }
+
 
 
 
