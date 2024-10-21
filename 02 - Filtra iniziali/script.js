@@ -4,6 +4,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+// Dichiara la funzione qui.
+//dobbiamo fare una funzione con due parametri, un array ed un propossito
+//parametro 1 = array
+//parametro 2 = lettera
+function oneByOne(array, letter) { }
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
