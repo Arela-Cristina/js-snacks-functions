@@ -15,7 +15,22 @@ const salute = (nombre) => {
 
     // ora attuale
     const hour = now.getHours();
+
+    //dichiaro la variabile messaggio come una stringa vuota
+    let message = '';
+    //buongiorno se è mattina (fino alle 13),
+    if (hour < 13) {
+        message = `Buongiorno  ${nombre}`;
+    } else if (hour < 17) {
+        //buon pomeriggio se è pomeriggio (fino alle 17)
+        message = `Buon Pomeriggio  ${nombre}`;
+    } else if (hour >= 17) {
+        //buonasera se è sera (oltre le 17)
+        message = `Buona sera  ${nombre}`;
+    }
+    console.log(message);
 }
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
