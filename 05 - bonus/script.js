@@ -33,7 +33,7 @@ const salute = (nombre) => {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(salute(name))
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
