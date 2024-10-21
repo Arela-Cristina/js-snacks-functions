@@ -4,10 +4,10 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const salute = (nombre) => `Ciao  ${nombre}`
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(salute(name))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
