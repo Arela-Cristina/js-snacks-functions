@@ -10,6 +10,11 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 const salute = (nombre) => {
+    //il oggetto date ci ritorna diversi metodi per manipolare date, ore, etc
+    const now = new Date();
+
+    // ora attuale
+    const hour = now.getHours();
 }
 
 // Invoca la funzione qui e stampa il risultato in console
