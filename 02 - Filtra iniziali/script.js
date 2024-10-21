@@ -22,6 +22,7 @@ function oneByOne(array, letter) {
             newArray.push(element);
         }
     }
+    console.log(newArray);//ritorna un nuovo array
 }
 
 
