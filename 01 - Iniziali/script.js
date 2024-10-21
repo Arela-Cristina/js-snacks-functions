@@ -11,6 +11,7 @@ function oneByOne(array, purpose) {
     for (let i = 0; i < array.length; i++) {
         let element = array[i];
         console.log(`${i} - ${element}`);
+        //ogni elemento del mio array svolge un compito-purpose
     }
 
 // Invoca la funzione qui e stampa il risultato in console
