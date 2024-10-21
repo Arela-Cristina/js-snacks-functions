@@ -6,9 +6,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 //primo parametro = array
 //secondo parametro = purpose
-function oneByOne (array, purpose) {
+function oneByOne(array, purpose) {
     //ciclo ogni elemento del mio array
-}
+    for (let i = 0; i < array.length; i++) {
+        let element = array[i];
+        console.log(`${i} - ${element}`);
+    }
 
 // Invoca la funzione qui e stampa il risultato in console
 
