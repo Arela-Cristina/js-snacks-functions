@@ -4,7 +4,10 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
+function numOfVowels(word) {
+    //nuovo array per pushare le vocali
+    const vowels = [];
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
