@@ -25,11 +25,8 @@ function oneByOne(array, letter) {
     console.log(newArray);//ritorna un nuovo array
 }
 
-
-
-
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(oneByOne(names, "A"));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
