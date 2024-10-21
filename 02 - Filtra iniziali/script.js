@@ -8,7 +8,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 //dobbiamo fare una funzione con due parametri, un array ed un propossito
 //parametro 1 = array
 //parametro 2 = lettera
-function oneByOne(array, letter) { }
+function oneByOne(array, letter) { 
+    //array vuoto per pushare i risultati
+  let newArray = [];
+}
 
 
 
