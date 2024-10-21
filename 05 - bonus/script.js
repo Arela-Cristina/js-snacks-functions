@@ -9,7 +9,8 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const salute = (nombre) => {
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
