@@ -12,7 +12,7 @@ function numOfVowels(word) {
         let element = word[i];
         console.log(element);
         //cerco le vocali che si includono nella cadena de testo 'aeiou' 
-        if ("aeiou".includes(element)) {
+        if ("aeiouAEIOU".includes(element)) {
             //pusho i risultati//
             vowels.push(element);
         }
