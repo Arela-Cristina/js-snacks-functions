@@ -31,3 +31,7 @@ console.log(oneByOne(names, "A"));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
+//consigli
+//megliorare il naiming.
+//la funzione sempre deve ritornare qualcosa, se no uscira undefined
