@@ -13,16 +13,17 @@ function oneByOne(array, letter) {
     let newArray = [];
     //cicliamo ogni elemento del array
     for (let i = 0; i < array.length; i++) {
-        let element = array[i];
+        let element = array[i]
         console.log(element);
         //proposito, solo parole che iniziano con la stessa lettera
-        let result = element.charAt(0);
+        let firstChar = element.charAt(0);
         //..saranno pushate nel newArray
-        if (result.includes(letter)) {
+        if (firstChar.toLowerCase() === letter.toLowerCase() ) {
             newArray.push(element);
         }
     }
     console.log(newArray);//ritorna un nuovo array
+    return newArray
 }
 
 // Invoca la funzione qui e stampa il risultato in console
