@@ -4,7 +4,7 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-const salute = (nombre) => `Ciao  ${nombre}`
+const salute = (element) => `Ciao  ${element}`
 
 // Invoca la funzione qui e stampa il risultato in console
 console.log(salute(name))
