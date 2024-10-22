@@ -29,6 +29,7 @@ const salute = (nombre) => {
         message = `Buona sera  ${nombre}`;
     }
     console.log(message);
+    return message
 }
 
 
