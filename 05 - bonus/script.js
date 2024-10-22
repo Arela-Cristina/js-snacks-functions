@@ -24,9 +24,9 @@ const salute = (nombre) => {
     } else if (hour < 17) {
         //buon pomeriggio se è pomeriggio (fino alle 17)
         message = `Buon Pomeriggio  ${nombre}`;
-    } else if (hour >= 17) {
+    } else {
         //buonasera se è sera (oltre le 17)
-        message = `Buona sera  ${nombre}`;
+        message = `Buonasera  ${nombre}`;
     }
     console.log(message);
     return message
