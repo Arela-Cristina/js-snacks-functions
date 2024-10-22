@@ -6,7 +6,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 //primo parametro = array
 //secondo parametro = purpose
-function oneByOne(array, purpose) {
+function oneByOne(array, purpose) { //codice  parlante: getElementsFirstChar()
     //ciclo ogni elemento del mio array
     for (let i = 0; i < array.length; i++) {
         let element = array[i];
